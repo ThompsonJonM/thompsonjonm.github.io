@@ -1,0 +1,318 @@
+/* This should be interesting*/
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	font-family: arial;
+	width: 100%;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #cccccc;
+}
+
+/*I neglected to build off of the reset.css so this was a learning experience.
+Unfortunately, I had to manually override the reset.css with the normal
+working parameters of h2, h3, and p as a result.*/
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+	font-family: georgia;
+	color: #4aaaa5;
+	padding-left: 20px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+	font-family: georgia;
+	color: #4aaaa5;
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*Classes*/
+
+.connect {
+	float: right;
+	width: 17.5%;
+	height: 25%;
+	margin-right: 15%;
+	text-align: center;
+	padding-bottom: 25px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #dddddd;
+	background-color: #ffffff;
+}
+
+.footer {
+	font-family: arial;
+	text-align: center;
+	font-size: 12px;
+	color: #c0c0c0;
+	background-color: #666666;
+	padding: 40px;
+	border-top: 7.5px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-style: solid;
+	border-color: #4aaaa5;
+}
+
+.imagecontainerleft {
+	float: left;
+	height: 250px;
+	width: 375px;
+	position: relative;
+}
+
+.imagecontainerright {
+	float: right;
+	height: 250px;
+	width: 375px;
+	position: relative;
+}
+
+.tag {
+	position: absolute;
+	left: 20px;
+	bottom: 50px;
+	height: 60px;
+	width: 335px;
+	margin-bottom: -20px;
+	background-color: #4aaaa5;
+	text-align: center;
+}
+
+.portfolioname {
+	color: #ffffff;
+}
+
+/*Individual IDs*/
+
+#backgroundimg {
+	background-image: url(../images/background.png);
+}
+
+/*Header Items*/
+
+#headerbar {
+	padding-bottom: 45px;
+	height: 99px;
+}
+
+#headername {
+	float: left;
+	margin-left: 15%;
+	margin-top: 0%;
+	padding: 36px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+
+}
+
+#headerlinks {
+	float: right;
+	margin-right: 16%;
+	padding-top: 35px;
+	font-family: arial;
+	color: #cccccc;
+	word-spacing: 10px;
+}
+
+/*Content Boxes*/
+
+#contacttext {
+	float: left;
+	width: 50%;
+	height: 40%;
+	margin-left: 15%;
+	padding-bottom: 20px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #dddddd;
+	background-color: #ffffff;
+}
+
+#portfoliotext {
+	float: left;
+	width: 50%;
+	height: 40%;
+	margin-left: 15%;
+	padding-bottom: 20px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #dddddd;
+	background-color: #ffffff;
+}
+
+#aboutme {
+	float: left;
+	width: 50%;
+	height: 40%;
+	margin-left: 15%;
+	padding-bottom: 20px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #dddddd;
+	background-color: #ffffff;
+}
+
+#aboutmetext {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*Textareas*/
+
+#textentrybox {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#namebox {
+	width: 100%;
+	height: 35px;
+	resize: none;
+	line-height: 30px;
+	font-family: arial;
+}
+
+#emailbox {
+	width: 100%;
+	height: 35px;
+	resize: none;
+	line-height: 30px;
+	font-family: arial;
+}
+
+#messagebox {
+	width: 100%;
+	height: 100px;
+	resize: vertical;
+	overflow: auto;
+}
+
+/*Buttons*/
+
+#submitbutton {
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: #4aaaa5;
+	width: 120px;
+	height: 40px;
+	font-family: arial;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 1.17em;
+	border-width: 0px;
+}
+
+/*Header Breaks*/
+
+#hr1 {
+	width: 95%;
+	background-color: #cccccc;
+	height: 3px;
+}
+
+#hr2 {
+	width: 61%;
+	background-color: #cccccc;
+	height: 3px;
+}
+
+/*Images*/
+
+#selfimage {
+	float: left;
+	width: 175px;
+	height: 125px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#github {
+	height: 53px;
+	width: 53px;
+}
+
+#linkedin {
+	height: 53px;
+	width: 53px;
+}
+
+#stack {
+	height: 50px;
+	width: 50px;
+	padding-top: 0.5px;
+	padding-bottom: 2.5px;
+}
+
+#portfolio1 {
+	
+	padding: 20px;
+	height: 250px;
+	width: 375px;
+}
+
+#portfolio2 {
+	
+	padding: 20px;
+	height: 250px;
+	width: 375px;
+}
+
+#portfolio3 {
+	
+	padding: 20px;
+	height: 250px;
+	width: 375px;
+}
+
+#portfolio4 {
+	
+	padding: 20px;
+	height: 250px;
+	width: 375px;
+}
+
+#portfolio5 {
+	
+	padding: 20px;
+	height: 250px;
+	width: 375px;
+}
+
+/*Gaps*/
+
+#gap1 {
+	padding: 20px;
+}
+
+#gap2 {
+	padding: 20px;
+	clear: both;
+}

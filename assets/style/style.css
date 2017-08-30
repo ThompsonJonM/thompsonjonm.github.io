@@ -1,0 +1,166 @@
+/* Global IDs */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding-top: 100px;
+	position: relative;
+}
+
+/* Individual IDs */
+
+#navList {
+	margin-top: 100%;
+	font-family: 'Josefin Slab', serif;
+}
+
+#mainBodySection {
+	font-family: 'Josefin Slab', serif;
+}
+
+#connectImageOne {
+	height: 46px;
+	width: 48px;
+	margin-top: 2.5px;
+	margin-right: 12px;
+	padding-bottom: 1.5px;
+}
+
+#connectImageTwo {
+	height: 50px;
+	width: 50px;
+	margin-right: 12px;
+}
+
+#connectImageThree {
+	height: 50px;
+	width: 50px;
+}
+
+/* #contactBox {
+	position: fixed;
+} */
+
+#contactForm {
+	width: 100%;
+}
+
+/* Classes */
+
+.sidebar-nav {
+	position: fixed;
+}
+
+.nav-link {
+	color: black;
+}
+
+.nav-link:hover {
+	color: black;
+}
+
+.imageBlock {
+	position: relative;
+}
+
+.projectImg {
+	margin-bottom: .75rem;
+	max-height: 235px;
+	min-height: 235px;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: 0.85;
+}
+
+.imgDescriptWide {
+	position: absolute;
+	visibility: hidden;
+	margin-left: 2.5%; 
+	margin-right: 2.5%;
+	height: 235px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	opacity: 0;
+	transition: opacity .2s, visibility .2s;
+}
+
+.imgDescriptShort {
+	position: absolute;
+	visibility: hidden;
+	margin-left: 3.5%; 
+	margin-right: 3.5%;
+	height: 235px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	opacity: 0;
+	transition: opacity .2s, visibility .2s;
+}
+
+.imageBlock:hover .imgDescriptWide{
+	opacity: 1.0;
+	visibility: visible;
+}
+
+.imageBlock:hover .imgDescriptShort{
+	opacity: 1.0;
+	visibility: visible;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+
+/* Queries */
+
+@media screen and (min-width: 768px) {
+	#sidebar {
+		position: fixed;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.row-offcanvas {
+	  position: relative;
+	  -webkit-transition: all .25s ease-out;
+		   -o-transition: all .25s ease-out;
+			  transition: all .25s ease-out;
+	}
+  
+	.row-offcanvas-left {
+	  left: 0;
+	}
+  
+	.row-offcanvas-left
+	.sidebar-offcanvas {
+	  left: -100%; /* 12 columns */
+	}
+  
+	.row-offcanvas-left.active
+	.sidebar-offcanvas {
+	  left: -50%; /* 6 columns */
+	}
+  
+	.row-offcanvas-left.active {
+	  left: 50%; /* 6 columns */
+	}
+  
+	.sidebar-offcanvas {
+	  position: absolute;
+	  top: 0;
+	  width: 50%; /* 6 columns */
+	}
+  }

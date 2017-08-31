@@ -127,9 +127,34 @@ body {
 
 /* Queries */
 
+@media screen and (min-width: 1200px) {
+	#sidebar {
+		position: fixed;
+	}
+
+	#navList {
+		margin-top: 10%;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#sidebar {
+		position: fixed;
+	}
+
+	#navList {
+		margin-top: 100%;
+	}
+}
+
+
 @media screen and (min-width: 768px) {
 	#sidebar {
 		position: fixed;
+	}
+
+	#navList {
+		margin-top: 75%;
 	}
 }
 
@@ -164,4 +189,9 @@ body {
 	  top: 0;
 	  width: 50%; /* 6 columns */
 	}
-  }
+
+	#sidebar {
+		margin-top: 35%;
+	}
+
+}

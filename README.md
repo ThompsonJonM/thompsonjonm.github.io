@@ -1,3 +1,2 @@
-# revised-portfolio
-
-- Based off of https://hellomichael.com/?section=about
+# My Portfolio
+- Welcome to my portfolio page hosted by Github pages. This is currently a work in progress.

@@ -22,6 +22,9 @@
 
     <!-- JS -->
     <script type='text/javascript' src='./assets/logic/script.js'></script>
+
+    <!--Firebase CDN-->
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
     
     <title>Jonathan Thompson</title>
 </head>
@@ -31,7 +34,7 @@
         <div class='row row-offcanvas row-offcanvas-left'>
 
             <!-- Sidebar Nav Column; Fixed Bar-->
-            <div class="col-2 sidebar-offcanvas" id='sidebar'>
+            <div class="col-3 sidebar-offcanvas" id='sidebar'>
                 <div class="nav navbar-default" role='navigation'>
                     <ul class="nav navbar-nav" id='navList'>
                         <li><a href='index.html' class='nav-link'><h4><b>ABOUT</b></h4></a></li>
@@ -44,7 +47,7 @@
             </div>
 
             <!-- Main Body Column -->
-            <div class="col-sm-5 ml-sm-auto col-md-10 ml-md-auto col-lg-8 ml-lg-auto mr-lg-auto" id="mainBodySection">
+            <div class="col-9 ml-sm-auto ml-md-auto ml-lg-auto" id="mainBodySection">
                 <div class="row" id='aboutMeRow'>
                     <div class="col-lg-12 text-center" id='headerText'>
                         <h2><b>Jonathan Thompson</b></h2>
@@ -73,20 +76,22 @@
                 
 
                 <div class="row">
-                    <div class="col-sm-3 mr-sm-auto col-md-6 mr-md-auto col-lg-5" id="aboutMePhoto">
-                        <img src="./assets/img/selfimage.jpg" alt="" class="img-fluid">
+                    <div class="col-sm-6 mr-sm-auto col-md-6 mr-md-auto col-lg-5" id="aboutMePhoto">
+                        <img src="./assets/img/selfimage.jpg" alt="profile photo" class="img-fluid">
                     </div>
 
-                    <div class="col-sm-3 mr-sm-auto col-md-6 ml-md-auto mr-md-auto col-lg-5" id="aboutMeText">
+                    <div class="col-sm-6 mr-sm-auto col-md-6 ml-md-auto mr-md-auto col-lg-5" id="aboutMeText">
                         <p>
                             <b>I've been tooling around with web development for more than a 
-                            decade and began with creating templates for MySpace as a hobby.</b>
+                            decade as a hobby, though it wasn't until after I left the Air Force
+                            that I began to consider it as a career choice.</b>
                         </p>
 
                         <p>
                             <b>I hold a Bachelors of Arts with a major in History and Anthropology
-                            from <a href='https://www2.naz.edu/academics/history-degree-program/' target='_blank'>Nazareth College of Rochester</a>. Originally from New York, I have
-                            called Chicago my home for the last three years.</b>
+                            from <a href='https://www2.naz.edu/academics/history-degree-program/' target='_blank'>Nazareth College of Rochester</a>. 
+                            Originally from New York, I have called Chicago my home for the last 
+                            three years.</b>
                         </p>
 
                         <p>

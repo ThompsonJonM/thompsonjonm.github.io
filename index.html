@@ -15,7 +15,10 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
 
     <!-- Style -->
-    <link rel="stylesheet" type="text/css" href="./assets/style/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style/style.css"> 
+
+    <!--Alt Style CANNOT IMPLEMENT UNTIL ON SERVER -->
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/style/altStyle.css"> -->
 
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -47,18 +50,22 @@
             </div>
 
             <!-- Main Body Column -->
-            <div class="col-9 ml-sm-auto ml-md-auto ml-lg-auto" id="mainBodySection">
-                <div class="row" id='aboutMeRow'>
-                    <div class="col-lg-12 text-center" id='headerText'>
+            <div class="col-12 ml-sm-auto col-md-9 ml-md-auto ml-lg-auto" id="mainBodySection">
+                <div class="row text-center" id='aboutMeRow'>
+                    <div class="col-lg-12" id='headerText'>
                         <h2><b>Jonathan Thompson</b></h2>
                         <h5><b>Web Developer | Chicago, IL</b></h5>
 
                         <br>
                         <br>
 
-                        <a href="https://stackoverflow.com/users/8517636/jonathan-thompson?tab=profile" target="_blank"><img class="text-center" src="./assets/img/stack.png" id="connectImageOne"></a>
-                        <a href="https://www.linkedin.com/in/jonathanmnthompson/" target="_blank"><img class="text-center" src="./assets/img/linkedin.png" id="connectImageTwo"></a>
-                        <a href="https://github.com/thompsonjonm" target="_blank"><img class="text-center" src="./assets/img/github.png" id="connectImageThree"></a>
+                        <div class='row justify-content-center'>
+                            <a href="https://stackoverflow.com/users/8517636/jonathan-thompson?tab=profile" target="_blank"><img class="text-center" src="./assets/img/stack.png" id="connectImageOne"></a>
+                            <a href="https://www.linkedin.com/in/jonathanmnthompson/" target="_blank"><img class="text-center" src="./assets/img/linkedin.png" id="connectImageTwo"></a>
+                            <a href="https://github.com/thompsonjonm" target="_blank"><img class="text-center" src="./assets/img/github.png" id="connectImageThree"></a>
+                            <!-- <input type='image' class='dayStyle' src="./assets/img/day.png" alt="day/night select" id='connectImageFour'>
+                            <input type='image' class='nightStyle' src="./assets/img/night.png" alt="day/night select" id='connectImageFive'> -->
+                        </div>
 
                         <br>
                         <br>
@@ -89,7 +96,7 @@
 
                         <p>
                             <b>I hold a Bachelors of Arts with a major in History and Anthropology
-                            from <a href='https://www2.naz.edu/academics/history-degree-program/' target='_blank'>Nazareth College of Rochester</a>. 
+                            from <a href='https://www2.naz.edu/academics/history-degree-program/' target='_blank' class='nazLink'>Nazareth College of Rochester</a>. 
                             Originally from New York, I have called Chicago my home for the last 
                             three years.</b>
                         </p>

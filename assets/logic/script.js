@@ -1,12 +1,24 @@
 $(document).ready(function() {
 
+    // Canvas Toggle
     $('[data-toggle="offcanvas"]').click(function () {
         $('.row-offcanvas').toggleClass('active')
     });
 
+    // Canvas Untoggle
     $('.nav-link').click(function () {
         $('.row-offcanvas').removeClass('active')
     });
+
+    // Night Sheet CANNOT IMPLEMENT UNTIL ON SERVER
+    // $('.nightStyle').click(function () {
+    //     $('link[rel=stylesheet]').attr({href : "./assets/style/altStyle.css"});
+    // });
+
+    // Day Sheet CANNOT IMPLEMENT UNTIL ON SERVER
+    // $('.dayStyle').click(function () {
+    //     $('link[rel=stylesheet]').attr({href : "./assets/style/style.css"});
+    // });
 
     // Initialize Firebase
     var config = {

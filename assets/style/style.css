@@ -9,6 +9,14 @@ body {
 	position: relative;
 }
 
+a {
+	color: #000000;
+}
+
+a:hover {
+	color: #000000;
+}
+
 /* Individual IDs */
 
 #navList {
@@ -26,11 +34,11 @@ body {
 }
 
 #connectImageOne {
-	height: 46px;
-	width: 48px;
-	margin-top: 2.5px;
-	margin-right: 12px;
-	padding-bottom: 1.5px;
+	height: 58px;
+	width: 65px;
+	margin-right: 2px;
+	margin-top: -4px;
+	margin-bottom: -4px;
 }
 
 #connectImageTwo {
